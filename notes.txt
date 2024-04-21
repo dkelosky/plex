@@ -1,0 +1,11 @@
+https://mullvad.net/en/help/split-tunneling-with-linux-advanced#allow-ip
+
+ps ax | grep 'Plex Media'
+mullvad split-tunnel add <pid>
+sudo nft -f plex.rules
+
+
+# to verify
+
+sudo nft list ruleset | grep 32400
+
